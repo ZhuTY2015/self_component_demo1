@@ -1,0 +1,73 @@
+[hidefocus], summary {outline: 0;}
+li {list-style: none;}
+h1, h2, h3, h4, h5, h6, small {font-size: 100%;}
+sup, sub {font-size: 83%;}
+pre, code, kbd, samp {font-family: inherit;}
+q:before, q:after {content: none;}
+textarea {overflow: auto;resize: none;}
+label, summary {cursor: default;}
+a, button {cursor: pointer;}
+h1, h2, h3, h4, h5, h6, em, strong, b {font-weight: bold;}
+del, ins, u, s, a, a:hover {text-decoration: none;}
+input, button {border: none;outline: none;background: none;}
+body { background: #FFF;}
+body, textarea, input, button, select, keygen, legend {font-size: 14px;font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;}
+a, a:hover { color: #303031; }
+*,body,div,p,table,ul,li,ol{padding:0;margin:0;}
+body{
+  background-color: #F2F6FC;
+}
+
+/*弹框  dialog相关*/
+.el-dialog__header{
+  background-color: #409EFF;
+  padding: 10px;
+  color: #FFF;
+  text-align: left;
+}
+.el-dialog__title{
+  color: #FFF;
+  font-size: 16px;
+}
+.el-dialog__headerbtn{
+  top: 15px;
+}
+.el-dialog__headerbtn .el-dialog__close,.el-dialog__headerbtn .el-dialog__close:hover{
+  color: #FFF;
+}
+.el-dialog__body{
+  padding: 15px 10px;
+}
+.el-dialog__footer{
+  padding: 10px;
+  background-color: #eeeeee;
+}
+/*弹框  dialog相关 End*/
+
+/*Form 表单*/
+.el-input-number--small{
+  width: 100%;
+}
+.el-input-number .el-input__inner{
+  text-align: left;
+}
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner{
+  width: 100%;
+}
+.el-textarea .el-input__count{
+  line-height: 1;
+}
+.el-cascader,.el-select{
+  width: 100%;
+}
+/*Form 表单 End*/
+
+.el-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
